@@ -1,6 +1,7 @@
+
 public class EmployeeDAO {
-    public List<Book> getAllUsers()throws Exception{
-		List<Book> userList = new ArrayList<>();				
+    public List<Book> getAllUEmplooes()throws Exception{
+		List<Employee> empList = new ArrayList<>();				
 		Book book=null;
 		
 		Connection	con=DBConnection.getConnection();		
