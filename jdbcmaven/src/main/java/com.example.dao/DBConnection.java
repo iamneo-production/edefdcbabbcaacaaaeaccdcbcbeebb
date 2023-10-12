@@ -1,7 +1,7 @@
 public class DBConnection {
     	
         public static Connection getConnection() throws Exception {        
-            ResourceBundle rb = ResourceBundle.getBundle("oracle");
+            ResourceBundle rb = ResourceBundle.getBundle("mysqldb");
             String url = rb.getString("db.url");
             String username = rb.getString("db.username");
             String password = rb.getString("db.password");
